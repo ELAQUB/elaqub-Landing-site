@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/molengo');
+@import url('https://fonts.cdnfonts.com/css/hind-madurai');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+$primary-color: #f1f1f1;
+$secondary-color: #141414;
+$accent-color: #06703a;
+$border-color: #088a47;
+$bg: #a5a4a5;
+$misc-two: #0b0b0b;
+$misc-three: #303030;
+$misc-four: #d4d4d4;
+$misc-five: #c4c3c3;
+
+
+// $large-image-width: ;
+// $large-image-height: ;
+$button-height: 2rem;
+$button-width: 2rem;
+$border-radius: 2rem;
+$small-border-radius: 0.5rem;
+$box-height: 13rem;
+$box-width: 17rem;
+$width: 100%;
+$height: 100vh;
+$radius: 50%;
+$large-text: 2.24rem;
+$extra-large-text: 4.24rem;
+$big-text-size: 1.5rem;
+$text-size: 1.125rem;
+$small-text: 0.9rem;
+
+$main-font: 'Molengo', sans-serif;
+$sub-font: 'Hind Madurai', sans-serif;
+
+
+.App{
+    background: $primary-color;
+    height: $height;
+}
+
+::-webkit-scrollbar{
+    width: 0.3rem;
+    background: $secondary-color;
+}
+
+::-webkit-scrollbar-thumb{
+    background: $accent-color;
+    border-radius: $small-border-radius;
+}
